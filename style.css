@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    /* background-color: rgb(0, 247, 255); */
+    background-image: linear-gradient(to right , #adfadc 30% , #114444 50% ,#d4b1b1 90%);
+}
+ ul , #list , #delbtn , #editbtn{
+     list-style: none;
+     /* margin: 20px 20px; */
+     margin: 10px 15px;
+     margin-right: -10px;
+     
+     /* display: flex;
+     align-items: baseline; */
+}
+h1{
+    font-family: cursive;
+    font-size: 30pt;
+    color: rgb(65, 113, 255);
+}
+#addItem , #delAll{
+    margin-top: 30px;
+    margin: 30px 30px;
+    padding: 10px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 13px;
+    cursor: pointer;
+    outline: none;
+    font-size: 13pt;
+}
+#todo{
+    width: 160pt;
+    height: 20pt;
+    padding: 2px 8px;
+    border-radius: 7px;
+    border-color: black;
+    color: black;
+    background-color:whitesmoke;
+    outline: none;
+    font-size: 13pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#delbtn , #editbtn {
+    padding: 10px 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: whitesmoke;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 13px;
+    cursor: pointer;
+    outline: none;
+    font-size: 13pt;
+
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+    color: whitesmoke;
+    /* text-decoration: solid red underline; */
+}
+#main{
+    background-color: whitesmoke;
+    width: 650px;
+    
+    margin: 0px auto;
+    border-radius: 13px;
+    
+}
+.list{
+    background-color: saddlebrown;
+    margin: 0px auto;
+}
